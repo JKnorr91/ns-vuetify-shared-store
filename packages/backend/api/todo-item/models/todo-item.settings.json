@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "todo_items",
+  "info": {
+    "name": "todoItem"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "checked": {
+      "type": "boolean"
+    }
+  }
+}
